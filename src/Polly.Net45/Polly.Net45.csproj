@@ -107,6 +107,7 @@
     <Compile Include="CircuitBreakerSyntaxAsync.cs" />
     <Compile Include="CircuitBreaker\CircuitBreakerPolicyAsync.cs" />
     <Compile Include="Extensions\TaskExtensions.cs" />
+    <Compile Include="IPolicy.cs" />
     <Compile Include="PolicyAsync.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Context.cs" />

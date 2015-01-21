@@ -3,12 +3,12 @@ using System.Diagnostics;
 
 namespace Polly
 {
-    /// <summary>
+	/// <summary>
     /// Transient exception handling policies that can
     /// be applied to delegates
     /// </summary>
-    public partial class Policy
-    {
+    public partial class Policy : IPolicy
+	{
         private readonly Action<Action> _exceptionPolicy;
 
         internal Policy(Action<Action> exceptionPolicy)
